@@ -1,0 +1,135 @@
+.about {
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff; /* Ensures text is readable on background */
+  border-radius: 10px;
+  background-color: #f8f8f8;
+    padding: 60px 20px;
+    
+
+  section {
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #2c3e50;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+
+      &:before {
+        content: "✨";
+        position: absolute;
+        left: -30px;
+        font-size: 2rem;
+      }
+      &:after {
+        content: "✨";
+        position: absolute;
+        right: -30px;
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      color: #555;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    ul {
+      margin-top: 10px;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1rem;
+        color: #666;
+
+        &:before {
+          content: "✔️";
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .highlights {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      div {
+        background-color: #fece51;
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-size: 1rem;
+        color: #333;
+        font-weight: bold;
+      }
+    }
+
+    blockquote {
+      margin: 20px auto;
+      padding: 20px;
+      border-left: 5px solid #fece51;
+      font-style: italic;
+      color: #555;
+      width: 80%;
+
+      footer {
+        text-align: right;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #444;
+      }
+    }
+
+    .testimonials {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+
+      .testimonial {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        color: #555;
+
+        p {
+          font-size: 1rem;
+          line-height: 1.6;
+          
+        }
+
+        footer {
+          margin-top: 10px;
+          text-align:center;
+          font-weight: bold;
+          
+          
+          
+          
+        }
+      }
+    }
+  }
+}
